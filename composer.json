@@ -1,5 +1,5 @@
 {
-    "name": "coolseven/doctrine-dbal-char-type",
+    "name": "coolseven/laravel-migration-char-type",
     "description": "Add Char Type For Laravel Migration",
     "keywords": ["doctrine-dbal", "doctrine-dbal CharType"],
     "homepage": "https://github.com/coolseven/doctrine-dbal-char-type",
