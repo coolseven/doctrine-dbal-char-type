@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Coolseven\DoctrineDbalCharType;
+namespace Coolseven\LaravelMigrationCharType;
 
 
 use Illuminate\Contracts\Support\DeferrableProvider;
