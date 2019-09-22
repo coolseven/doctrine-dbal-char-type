@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Coolseven\DoctrineDbalCharType;
+namespace Coolseven\LaravelMigrationCharType;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Doctrine\DBAL\Types\StringType;

@@ -13,18 +13,18 @@
     ],
     "autoload": {
         "psr-4": {
-            "Coolseven\\DoctrineDbalCharType\\": "src"
+            "Coolseven\\LaravelMigrationCharType\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Coolseven\\DoctrineDbalCharType\\Tests\\": "tests/"
+            "Coolseven\\LaravelMigrationCharType\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Coolseven\\DoctrineDbalCharType\\LaravelMigrationCharTypeServiceProvider"
+                "Coolseven\\LaravelMigrationCharType\\LaravelMigrationCharTypeServiceProvider"
             ]
         }
     },
