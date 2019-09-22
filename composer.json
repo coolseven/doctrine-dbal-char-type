@@ -1,0 +1,35 @@
+{
+    "name": "coolseven/doctrine-dbal-char-type",
+    "description": "Add Char Type For Laravel Migration",
+    "keywords": ["doctrine-dbal", "doctrine-dbal CharType"],
+    "homepage": "https://github.com/coolseven/doctrine-dbal-char-type",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "coolseven",
+            "email": "coolseven2013@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Coolseven\\DoctrineDbalCharType\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Coolseven\\DoctrineDbalCharType\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Coolseven\\DoctrineDbalCharType\\LaravelMigrationCharTypeServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "illuminate/database": "^6.0",
+        "doctrine/dbal": "^2.9"
+    }
+}
